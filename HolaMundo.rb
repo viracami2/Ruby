@@ -17,7 +17,7 @@ end
 def arrayInitial(numero)
     arra =[1,2]
     
-    while numero != 0
+    while numero-2 != 0
         arra.push (arra[-1] + arra[-2])
         numero-=1
     end
@@ -115,5 +115,8 @@ end
 saludando
 
 
-arraq= arrayInitial(41)
+puts "Serie Fibonacci, Dame un numero"
+numfibo = gets.chomp.to_i();
+puts  '-----------------------------------'
+arraq= arrayInitial(numfibo)
 puts pintar_Fibonacci(arraq)
