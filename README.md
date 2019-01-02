@@ -5,6 +5,10 @@
      ademas se usa basicamente la gema de 'net/http'  para consumir apis.
   2) Ejercicios Basicos con operadores y se realiza la Serie Fibonacci.
 
+  3)se utiliza la clase File para leer un archivo y escribir lo que deseemos 
+  
+  4)ejemplo de como se usan  las excepciones y como controlarlas.
+
 ## Development server
 
 
